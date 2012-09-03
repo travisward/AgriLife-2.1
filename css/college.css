@@ -1,0 +1,531 @@
+/**********************************************************
+
+Agency Page Layout Styles
+
+Include this style sheet for single agency styles.
+All front page styles and top navigation bar drop downs. 
+Default colors/images used here are for extension.
+
+**********************************************************/
+
+ul#agrilife-agency-tabs li.extension {
+	background-position: 0 0;
+	width: 180px;
+}
+ul#agrilife-agency-tabs li.extension a {
+	width: 180px;
+}
+
+div#agrilife {
+	padding-right: 8em;
+}
+
+div#agrilife-search {
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+/**********************************************************
+
+Header navigation
+
+**********************************************************/
+
+div#agrilife-header-nav {
+	position: relative;
+	z-index: 20;
+}
+
+div#agrilife-header-nav {
+	background: #005581 url(../images/subhead-ribbon-college.png) repeat-x 50% 30%;
+	padding: 2px 0;
+}
+
+div#agrilife-header-nav-box {
+	border: dashed #d1aa45;
+	border-width: 1px 0;
+}
+
+div#agrilife-header-nav div.clear {
+	padding-top: 5px;
+}
+
+div#agrilife-header-nav ul {
+	font-size: 0.8em;
+	line-height: 1.1em;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 950px;
+}
+
+div#agrilife-header-nav ul li {
+	float: left;
+	margin: 5px 3px 0;
+	padding: 0 5px 0 0;
+	position: relative;
+}
+
+div#agrilife-header-nav ul li:hover, div#agrilife-header-nav li.thickbox {
+	background: url(../images/bkgd-agrilife-header-nav-cr.gif) no-repeat 100% 50%;
+}
+
+div#agrilife-header-nav ul li:hover a, div#agrilife-header-nav li.thickbox a {
+	background: url(../images/bkgd-agrilife-header-nav-cl.gif) no-repeat 0 50%;
+}
+
+div#agrilife-header-nav ul li a {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	text-decoration: none;
+}
+
+div#agrilife-header-nav ul li a.thickbox span {
+	background: url(../images/lightbox-icon.gif) no-repeat 100% 50%;
+	padding-right: 14px;
+}
+
+ul#agrilife-agency-tabs li.texasam {
+	background-image: url(../images/tab-texasam.gif);
+	background-position: 0;
+	width: 252px;
+}
+ul#agrilife-agency-tabs li.texasam a {
+	color: #5d0025;
+	width: 100%;
+}
+
+
+/**********************************************************
+
+Header drop-down navigation
+
+**********************************************************/
+
+div#agrilife-header-nav ul li a.sub span {
+	background: url(../images/subhead-arrow.gif) no-repeat 100% 50%;
+	padding-right: 15px;
+}
+
+div#agrilife-header-nav div.sub {
+	margin: 0;
+	position: relative;
+}
+
+div#agrilife-header-nav li ul {
+	background: url(../images/bkgd-agrilife-header-nav-sub-c.png) no-repeat left bottom !important;
+	background: none;
+	display: none;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0 5px 15px;
+	position: absolute;
+	left: -5px;
+	top: 0.55em;
+	width: 200px;
+	z-index: 1000;
+}
+
+div#agrilife-header-nav li ul li, div#agrilife-header-nav li ul li:hover, div#agrilife-header-nav li.active ul li {
+	background: #3c0110;
+}
+div#agrilife-header-nav li ul li {
+	float: none;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 0;
+}
+
+div#agrilife-header-nav li ul li.last a {
+	border-bottom: 0;
+}
+
+div#agrilife-header-nav li:hover ul li a, div#agrilife-header-nav li.active ul li a, div#agrilife-header-nav li ul li:hover a {
+	background: none;
+}
+div#agrilife-header-nav li ul li a {
+	border-bottom: 1px solid #531626;
+	color: #fff;
+	display: block;
+	padding: 7px 10px;
+	width: 180px;
+}
+
+div#agrilife-header-nav li ul li a:hover {
+	background: #561324;
+}
+
+
+/**********************************************************
+
+Feature Stage
+
+**********************************************************/
+
+div#features {
+	background: url(../images/stage-bkgd.jpg) no-repeat 43px 0;
+	float: left;
+	position: relative;
+	height: 332px;
+	width: 660px;
+}
+
+ul.tabs {
+	background: url(../images/stage-tab.jpg) no-repeat 0 0;
+	height: 131px;
+	list-style: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+	position: absolute;
+	width: 40px;
+}
+
+ul.active {
+	background-position: -40px 0;
+}
+
+ul.tabs li {
+	font-size: 0.55em;
+	line-height: 1.2em;
+	padding: 15px 3px 3px 9px;
+	text-align: center;
+}
+
+ul.tabs li a {
+	color: #fff;
+}
+
+ul.tabs li a.active {
+	color: #aaaba2;
+}
+
+div.tab {
+	display: none;
+	left: 57px;
+	position: absolute;
+	top: 12px;
+}
+
+div.active {
+	display: block;
+}
+
+div.pics {
+	height: 305px;
+	overflow: hidden;
+	position: absolute;
+	width: 585px;
+}
+
+div.pics div {
+	height: 305px;
+	overflow: hidden;
+	width: 585px;
+}
+
+div.pics p {
+	background: url(../images/bkgd-pics.png) repeat 0 0;
+	bottom: 0;
+	color: #fff;
+	display: none;
+	font: 0.9em/1.5em Georgia, "Times New Roman", Times, serif;
+	left: 0;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 7px 50px;
+	position: absolute;
+	width: 485px;
+}
+
+div.pics p span {
+	display: block;
+	font-size: 1.2em;
+	line-height: 1.3em;
+}
+
+div.pics p a {
+	color: #a0def1;
+}
+
+div.pics p a:hover {
+	color: #d8f3fb;
+}
+
+div.pics-nav {
+	display: none;
+}
+
+div.pics-nav div {
+	background: url(../images/pics-nav.gif) no-repeat 0 0;
+	cursor: pointer;
+	font-size: 0;
+	left: 15px;
+	height: 20px;
+	line-height: 0;
+	position: absolute;
+	text-indent: -999em;
+	top: 270px;
+	width: 19px;
+	z-index: 100;
+}
+
+div.pics-nav div#next {
+	background-position: -19px 0;
+	left: 551px;
+}
+
+/**********************************************************
+
+Twitter Updates
+
+**********************************************************/
+
+div#twittermore {
+	padding: 0 10px;
+	text-align: right;
+}
+
+div#updates {
+	background: url(../images/bkgd-twitter.jpg) no-repeat 0 0;
+	color: #666;
+	float: right;
+	font: 1em/1.1em normal Georgia, "Times New Roman", Times, serif;
+	height: auto !important;
+	height: 305px;
+	min-height: 305px;
+	padding-right: 10px;
+	width: 260px;
+}
+
+div#updates ul {
+	list-style: none;
+	margin: 0;
+	padding: 55px 22px 0;
+}
+
+div#updates ul li {
+	padding: 7px 0 15px 0;
+}
+
+div#updates ul li a {
+	font: 0.8em/1em Arial, Helvetica, sans-serif;
+}
+
+
+/**********************************************************
+
+Modules: News and about / Links
+
+**********************************************************/
+
+div#modules {
+	background: #415353 url(../images/bkgd-college.gif) repeat 0 0;
+	color: #e0d3b8;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+div#modules a {
+	color: #a0def1;
+}
+
+div#modules a:hover {
+	color: #d8f3fb;
+}
+
+div#modules-box {
+	margin: 0 auto;
+	padding: 20px 10px;
+	width: 930px;
+}
+
+div#about {
+	background: url(../images/bkgd-about-cb.png) no-repeat left bottom !important;
+	background: url(../images/bkgd-about-e.gif) repeat 0 0;
+	float: right;
+	padding-bottom: 10px;
+	width: 576px;
+}
+
+div#about-box {
+	background: url(../images/bkgd-about-ct.png) no-repeat 0 0 !important;
+	background: none;
+	padding: 10px 20px 0;
+}
+
+div#about p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0.5em 0;
+}
+
+div#about a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+div#about ul {
+	list-style: none;
+	margin: 1.5em 0 0;
+	overflow: auto;
+	padding: 0 0 10px;
+}
+
+div#about ul li {
+	float: left;
+	padding-right: 20px;
+	width: 44%;
+}
+
+div#about ul li span {
+	display: list-item;
+	list-style: none;
+}
+
+div#news {
+	float: left;
+	width: 326px;
+}
+
+div#news-box {
+	background: url(../images/bkgd-news.png) no-repeat 0 0 !important;
+	background: url(../images/bkgd-enews.gif) repeat 0 0;
+	padding: 10px 20px;
+}
+
+div#news-scroll {
+	height: 18em;
+	overflow: auto;
+}
+
+div#news-box ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#news-box li {
+	line-height: 1.2em;
+	padding: 10px 0;
+	font-size: 1.1em;
+}
+
+div#news-box li a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div#news-box li div {
+	color: #fff;
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+div#news-box li span {
+	color: #999;
+}
+
+div#news-links {
+	background: url(../images/bkgd-news-links.png) no-repeat left bottom !important;
+	background: url(../images/bkgd-enews-links.gif) repeat 0 0;
+	color: #999;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding: 5px 15px 10px;
+	text-align: right;
+}
+
+/**********************************************************
+
+Moved Topics Text to differentiate between Agencies
+
+**********************************************************/
+
+div#topics h3 {
+	background: url(../images/topics-text-col.gif) no-repeat 0 0;
+	font-size: 0;
+	height: 60px;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	text-indent: -999em;
+	width: 150px;
+}
+
+div#topicsshadow {
+	background: url(../images/topics-shadow-bottom.gif) repeat-x bottom;
+	padding: 0 0 3px 0;
+}
+
+/**********************************************************
+
+jQuery horizontal scroll pane style sheet included below to minimize http requests.
+Veritcal scroll pane styles included in structure style sheet.
+
+**********************************************************/
+
+.jHorizontalScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jHorizontalScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #000 url(../images/topics-scroll-bkgd.jpg) repeat-x;
+}
+
+.jHorizontalScrollIntervalTrack { 
+	position: absolute;
+}
+
+.jHorizontalScrollPaneDrag {
+	position: absolute;
+	background: url(../images/topics-scroll-button.jpg) no-repeat 50% 50%;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.jHorizontalScrollPaneDragLeft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jHorizontalScrollPaneDragRight {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+a.jHorizontalScrollArrowLeft {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	text-indent: -2000px !important;
+	overflow: hidden;
+	height: 9px;
+	width: 10px;
+}
+
+a.jHorizontalScrollArrowRight {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px !important;
+	overflow: hidden;
+	height: 9px;
+	width: 10px;
+}

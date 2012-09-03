@@ -1,0 +1,29 @@
+div#agrilife-header-box, 
+div#agrilife-header-nav, 
+ul#breadcrumbs,
+ul#breadcrumbs-secondary, 
+div#sidebar,
+p.maintenance,
+div.vcard p,
+div#tamus,
+#agrilife-site-info ul { 
+	display: none;
+}
+div#site-header h1 a img{ 
+	border:0;
+}
+div#site-header h1 { 
+	margin: 5px 0 0 0; 
+}
+div#agrilife-header {
+	display: list-item;                
+	list-style-image: url(../images/agrilife-header-logo.gif);
+	list-style-position: inside;
+}
+div#main_content h2 { 
+	margin: 5px 0 0 0;
+}
+div#agrilife-footer-box {
+	margin: 20px 0 0 0;
+	width:100%;
+}

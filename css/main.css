@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	color: #004a61;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #127290;
+}
+
+body {
+	color: #333;
+	font: 100%/1.5em Arial, Helvetica, sans-serif;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	color: #5d0025;
+	font: 1em/1.5em Georgia, "Times New Roman", Times, serif;
+	margin: 1.5em 0 0.2em;
+	padding: 0;
+}
+
+h1 {
+	clear: left;
+	font-size: 1em;
+	line-height: 1em;
+	margin: 0;
+	padding: 5px 0 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+h1 span {
+	top: 3.5em;
+	color: #717073;
+	font-size: 0.3em;
+	left: 14.8em;
+	line-height: 1.5em;
+	position: absolute;
+}
+
+h2 {
+	clear: left;
+	font-size: 1.8em;
+	line-height: 1.3em;
+	margin-top: 0.6em;
+}
+
+h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+
+img {
+	border: 0;
+}
+
+input, select, textarea {
+	font: 1em Arial, Helvetica, sans-serif;
+}
+
+p, ol, table, ul {
+	margin: 1.5em 0;
+	padding: 0;
+}
+
+ol, ul {
+	padding-left: 30px;
+}
+
+ol ol, ul ul {
+	margin: 0.5em 0;
+}
+
+ul {
+	list-style: disc outside;
+}
+
+div#content {
+	border-top: 1px solid #d1d0ba;
+	clear: both;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/**********************************************************
+
+Footer
+
+**********************************************************/
+
+div#agrilife-footer {
+	color: #333;
+	overflow: auto;
+}
+
+div#agrilife-footer-box {
+	margin: 0 auto;
+	width: 950px;
+}
+
+div#agrilife-site-info {
+	font: 0.9em/1.4em Georgia, "Times New Roman", Times, serif;
+}
+
+div#agrilife-site-info h3 {
+	color: #5d0025;
+	font: 1.8em/1.3em Georgia, "Times New Roman", Times, serif;
+	margin-top: 0;
+}
+
+div#agrilife-site-info ul, div#agrilife-site-info p {
+	margin: 0.8em 0;
+}
+
+div#agrilife-site-info ul {
+	list-style: none;
+	padding: 0;
+	width: 55em;
+}
+
+div#agrilife-site-info ul li {
+	border-left: 1px solid #777;
+	float: left;
+	line-height: 1em;
+	margin: 5px 0;
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+div#agrilife-site-info ul li.row-start {
+	border: 0;
+	clear: left;
+	padding-left: 0;
+}
+
+div#tamus {
+	float: right;
+}

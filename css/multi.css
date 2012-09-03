@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**********************************************************
+
+Header navigation
+
+**********************************************************/
+
+div#agrilife-header-nav {
+	background: #005581 url(../images/subhead-ribbon-secondary.png) repeat-x 50% 10%;
+	padding: 2px 0;
+	position: relative;
+	z-index: 20;
+}
+
+div#agrilife-header-nav-box {
+	border: dashed #d1aa45;
+	border-width: 1px 0;
+}
+
+div#agrilife-header-nav div.clear {
+	padding-top: 5px;
+}
+
+div#agrilife-header-nav ul {
+	font-size: 0.8em;
+	line-height: 1.1em;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 950px;
+}
+
+div#agrilife-header-nav ul li {
+	float: left;
+	margin: 5px 3px 0;
+	padding: 0 5px 0 0;
+	position: relative;
+}
+
+div#agrilife-header-nav ul li:hover, div#agrilife-header-nav li.thickbox {
+	background: url(../images/bkgd-agrilife-header-nav-r-sec.gif) no-repeat 100% 50%;
+}
+
+div#agrilife-header-nav ul li:hover a, div#agrilife-header-nav li.thickbox a {
+	background: url(../images/bkgd-agrilife-header-nav-l-sec.gif) no-repeat 0 50%;
+}
+
+div#agrilife-header-nav ul li a {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	padding: 5px 5px 5px 10px;
+	text-decoration: none;
+}
+
+div#agrilife-header-nav ul li a.thickbox span {
+	background: url(../images/lightbox-icon.gif) no-repeat 100% 50%;
+	padding-right: 14px;
+}

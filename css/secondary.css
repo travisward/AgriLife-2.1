@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/**********************************************************
+
+Agency tab navigation
+
+**********************************************************/
+
+ul#agrilife-agency-tabs li span {
+	background: url(../images/tab-extenders.gif) no-repeat 0 0;
+	cursor: pointer;
+	display: block;
+	float: right;
+	height: 49px;
+	width: 23px;
+}
+ul#agrilife-agency-tabs li span:hover {
+	background-position: -23px 0;
+}
+
+ul#agrilife-agency-tabs li ul {
+	background: url(../images/bkgd-agrilife-agency-tabs-sub.png) no-repeat 0 100%;
+	display: none;
+	left: -5px;
+	list-style: none;
+	margin: 0;
+	padding: 0 5px 15px;
+	position: absolute;
+	top: 49px;
+	z-index: 1000;
+}
+ul#agrilife-agency-tabs li ul li a {
+	display: block;
+	font-size: 0.9em;
+	height: auto;
+	line-height: 1.5em;
+	padding: 7px 10px;
+	text-align: left;
+	text-indent: 0;
+}
+
+ul#agrilife-agency-tabs li.research ul li,
+ul#agrilife-agency-tabs li.extension ul li,
+ul#agrilife-agency-tabs li.teaching ul li,
+ul#agrilife-agency-tabs li.service ul li {
+	background: none;
+}
+
+ul#agrilife-agency-tabs li.research ul li.last a,
+ul#agrilife-agency-tabs li.extension ul li.last a,
+ul#agrilife-agency-tabs li.teaching ul li.last a,
+ul#agrilife-agency-tabs li.service ul li.last a {
+	border-bottom: 0;
+}
+
+ul#agrilife-agency-tabs li.research ul {
+	background-position: 0 100% !important;
+	background-position: -10000px 0;
+	width: 189px;
+}
+ul#agrilife-agency-tabs li.research ul li a {
+	background: #1f350f;
+	border-bottom: 1px solid #355a19;
+	color: #fff;
+	width: 169px;
+}
+ul#agrilife-agency-tabs li.research ul li.first a {
+	background: #1f350f url(../images/tab-extender-sub-res.gif) no-repeat right top;
+}
+ul#agrilife-agency-tabs li.research ul li a:hover {
+	background: #2f4320;
+}
+
+ul#agrilife-agency-tabs li.extension span {
+	background-position: 0 -49px;
+}
+ul#agrilife-agency-tabs li.extension span:hover {
+	background-position: -23px -49px;
+}
+
+ul#agrilife-agency-tabs li.extension ul {
+	background-position: -199px 100% !important;
+	background-position: -10000px 0;
+	width: 198px;
+}
+ul#agrilife-agency-tabs li.extension ul li a {
+	background: #01324c;
+	border-bottom: 1px solid #035881;
+	color: #fff;
+	width: 178px;
+}
+ul#agrilife-agency-tabs li.extension ul li.first a {
+	background: #01324c url(../images/tab-extender-sub-ext.gif) no-repeat right top;
+}
+ul#agrilife-agency-tabs li.extension ul li a:hover {
+	background: #094360;
+}
+
+ul#agrilife-agency-tabs li.teaching span {
+	background-position: 0 -98px;
+}
+ul#agrilife-agency-tabs li.teaching span:hover {
+	background-position: -23px -98px;
+}
+
+ul#agrilife-agency-tabs li.teaching ul {
+	background-position: -407px 100% !important;
+	background-position: -10000px 0;
+	width: 190px;
+}
+ul#agrilife-agency-tabs li.teaching ul li a {
+	background: #46001c;
+	border-bottom: 1px solid #6b1d3e;
+	color: #fff;
+	width: 170px;
+}
+ul#agrilife-agency-tabs li.teaching ul li.first a {
+	background: #46001c url(../images/tab-extender-sub-teach.gif) no-repeat right top;
+}
+ul#agrilife-agency-tabs li.teaching ul li a:hover {
+	background: #59263b;
+}
+
+ul#agrilife-agency-tabs li.service span {
+	background-position: 0 -147px;
+}
+ul#agrilife-agency-tabs li.service span:hover {
+	background-position: -23px -147px;
+}
+
+ul#agrilife-agency-tabs li.service ul {
+	background-position: -607px 100% !important;
+	background-position: -10000px 0;
+	width: 215px;
+}
+ul#agrilife-agency-tabs li.service ul li a {
+	background: #412d00;
+	border-bottom: 1px solid #705412;
+	color: #fff;
+	width: 195px;
+}
+ul#agrilife-agency-tabs li.service ul li.first a {
+	background: #412d00 url(../images/tab-extender-sub-serv.gif) no-repeat right top;
+}
+ul#agrilife-agency-tabs li.service ul li a:hover {
+	background: #4a3914;
+}
+
+ul#agrilife-agency-tabs li.single span {
+	background-position: 0 -147px;
+}
+ul#agrilife-agency-tabs li.single span:hover {
+	background-position: -23px -147px;
+}
+
+ul#agrilife-agency-tabs li.single ul {
+	background-position: -832px 100% !important;
+	background-position: -10000px 0;
+	width: 147px;
+}
+ul#agrilife-agency-tabs li.single ul li a {
+	width: 127px;
+}

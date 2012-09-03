@@ -1,0 +1,767 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Slighly altered from original to accommodate multiple sidebars. */
+/* Added a class to existing ID's */
+
+body {
+	background: #ebe9d8 url(../images/bkgd.gif) repeat center top;
+	margin: 0 auto;
+	padding: 0;
+}
+
+html {
+	background: #fff;
+}
+
+a.search {
+	background: url(../images/search-icon.gif) no-repeat 0 50%;
+	padding-left: 17px;
+}
+
+/**********************************************************
+
+Main
+
+**********************************************************/
+
+div#main {
+	background: url(../images/main-bkgd.png) repeat-x center top;
+}
+
+div#main-box {
+	background: url(../images/bkgd-main-box.png) repeat-y 0 0 !important;
+	background: #fff;
+	margin: 0 auto;
+	padding: 1px 5px 5px !important;
+	padding: 1px 0 5px;
+	width: 950px;
+}
+
+/**********************************************************
+
+Header
+
+**********************************************************/
+
+div#agrilife {
+	font: 0.9em/1.2em "Times New Roman", Times, serif;
+	margin: 0;
+	padding: 2px 0 0;
+}
+
+div#agrilife a {
+	color: #5d0025;
+	text-decoration: none;
+}
+
+div#agrilife a span {
+	background: url(../images/tx-dot.gif) no-repeat left bottom;
+	color: #717073;
+	padding-left: 14px;
+}
+
+div#agrilife-header {
+	background: #fff url(../images/header-bkgd.jpg) repeat-x center bottom;
+	border-top: 3px double #ffc222;
+	text-align: right;
+}
+
+div#agrilife-header-box {
+	margin: 0 auto;
+	min-height: 50px;
+	height: auto !important;
+	height: 50px;
+	position: relative;
+	width: 950px;
+	z-index: 30;
+}
+
+ul#agrilife-agencies {
+	float: right;
+	font: 0.75em/1.2em Georgia, "Times New Roman", Times, serif;
+	list-style: none;
+	margin: 0;
+	padding: 0.2em 9em 1.2em 0;
+}
+
+ul#agrilife-agencies li {
+	float: left;
+	font-size: 1.1em;
+	padding-right: 10px;
+}
+
+ul#agrilife-agencies li.teaching, ul#agrilife-agencies li.teaching a {
+	color: #5d0025;
+}
+
+ul#agrilife-agencies li.research, ul#agrilife-agencies li.research a {
+	color: #4f7e2a;
+}
+
+ul#agrilife-agencies li.extension, ul#agrilife-agencies li.extension a {
+	color: #005581;
+}
+
+ul#agrilife-agencies li.service, ul#agrilife-agencies li.service a {
+	color: #795300;
+}
+
+ul#agrilife-agencies li a.active {
+	text-decoration: underline;
+}
+
+/**********************************************************
+
+Agency tab navigation
+
+**********************************************************/
+
+ul#agrilife-agency-tabs {
+	bottom: 0;
+	height: 49px;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+ul#agrilife-agency-tabs li {
+	background: no-repeat 0 0;
+	float: left;
+	position: relative;
+}	
+
+ul#agrilife-agency-tabs li a {
+	display: block;
+	float: left;
+	font-size: 0;
+	height: 49px;
+	line-height: 0;
+	text-decoration: none;
+	text-indent: -999em;
+}
+
+ul#agrilife-agency-tabs li.research {
+	background-image: url(../images/tab-research.gif);
+	background-position: -3px 0;
+	width: 189px;
+}
+ul#agrilife-agency-tabs li.research a {
+	color: #2a4714;
+	width: 166px;
+}
+
+ul#agrilife-agency-tabs li.extension {
+	background-image: url(../images/tab-extension.gif);
+	background-position: -3px 0;
+	width: 198px;
+}
+ul#agrilife-agency-tabs li.extension a {
+	color: #024366;
+	width: 175px;
+}
+
+ul#agrilife-agency-tabs li.teaching {
+	background-image: url(../images/tab-college.gif);
+	background-position: -3px 0;
+	width: 190px;
+}
+ul#agrilife-agency-tabs li.teaching a {
+	color: #5d0025;
+	width: 167px;
+}
+
+ul#agrilife-agency-tabs li.service {
+	background-image: url(../images/tab-services.gif);
+	background-position: -3px 0;
+	height: 49px;
+	position: relative;
+	width: 215px;
+}
+
+ul#agrilife-agency-tabs li.service a {
+	color: #573c00;
+}
+
+ul#agrilife-agency-tabs li.service a.tvmdl {
+	height: 29px;
+	left: 17px;
+	position: absolute;
+	top: 3px;
+	width: 70px;
+}
+
+ul#agrilife-agency-tabs li.service a.tfs {
+	height: 29px;
+	position: absolute;
+	top: 3px;
+	right: 23px;
+	width: 87px;
+}
+
+ul#agrilife-agency-tabs li.single {
+	width: 147px;
+}
+
+ul#agrilife-agency-tabs li.tvmdl {
+	background-image: url(../images/tab-tvmdl.gif);
+	background-position: -3px 0;
+	height: 49px;
+	position: relative;
+	width: 130px;
+}
+
+ul#agrilife-agency-tabs li.tfs {
+	background-image: url(../images/tab-tfs.gif);
+}
+
+ul#agrilife-agency-tabs li.first {
+	background-position: 0 0;
+}
+
+
+/**********************************************************
+
+Header search
+
+**********************************************************/
+
+div#agrilife-search {
+	background: url(../images/bkgd-search-l.png) no-repeat 0 50%;
+	float: right;
+	font-size: 0.8em;
+	margin: 0 0 3px;
+	padding: 0 0 0 18px;
+}
+
+div#agrilife-search a {
+	background: url(../images/bkgd-search-r.png) no-repeat 100% 50%;
+	color: #fff;
+	display: block;
+	padding: 4px 10px 4px 3px;
+	text-decoration: none;
+	width: auto !important;
+	width: 4em;
+}
+
+div#agrilife-search span {
+	background: url(../images/lightbox-icon.gif) no-repeat 100% 50%;
+	padding-right: 14px;
+}
+
+/**********************************************************
+
+Footer
+
+**********************************************************/
+
+div#agrilife-footer {
+	background: #fff url(../images/footer.gif) repeat-x 0 -20px;
+	padding: 30px 0 20px;
+}
+
+div#agrilife-site-info a.map {
+	background: url(../images/map-icon.gif) no-repeat 2px 0;
+	padding-left: 22px;
+}
+
+/**********************************************************
+
+Topics Bar
+
+**********************************************************/
+
+
+
+div#topicsshadow-dark {
+	background-color: #333;
+	padding: 1px 0 0 0;
+}
+
+div#topicsshadow-med {
+	background-color: #999;
+	padding: 1px 0 0 0;
+}
+
+div#topicsshadow-light {
+	background-color: #ccc;
+	padding: 1px 0 0 0;
+}
+
+
+div#topics {
+	background: #000 url(../images/bkgd-topics-leather.jpg) repeat-x 50% 50%;
+	clear: both;
+	color: #dcd9b8;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding: 5px 0 0;
+	border-bottom: 2px solid #111;
+	border-top: 1px solid #111;
+}
+
+/*
+ORIGINAL
+div#topics {
+	background: #000 url(../images/bkgd-topics.jpg) repeat-x 0 0;
+	clear: both;
+	color: #dcd9b8;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding: 6px 0 0;
+}
+*/
+
+div#topics a {
+	color: #a0def1;
+}
+
+div#topics a:hover {
+	color: #d8f3fb;
+}
+
+div#topics-box {
+	margin: 0 auto;
+	padding: 5px 10px 0;
+	position: relative;
+	width: 930px;
+}
+
+/* Moved div.topics h3 to agency templates to differentiate graphics*/
+
+div#topics-action {
+	float: left;
+	width: 190px;
+}
+
+div#topics-action div {
+	margin: 6px 0 10px;
+	padding: 3px 5px;
+	text-align: center;
+}
+
+div#topics-action a {
+	padding-right: 5px;
+}
+
+div#topics-action a.thickbox {
+	background: url(../images/lightbox-icon.gif) no-repeat 100% 50%;
+	padding: 0 14px 0 5px;
+}
+
+div#topics-scroll {
+	float: right;
+}
+
+div#topics-scroll-box {
+	float: right;
+	font: 1.5em/1.2em Georgia, "Times New Roman", Times, serif;
+	height: 85px;
+	overflow: auto;
+	width: 740px;
+}
+
+div#topics-scroll ul  {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#topics-scroll li {
+	float: left;
+	padding: 10px 0;
+	width: 15em;
+}
+
+div#topics-scroll img {
+	border: 1px solid #a0def1;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+div#topics-scroll span {
+	display: block;
+	font: 0.7em/1.4em Arial, Helvetica, sans-serif;
+}
+
+/**********************************************************
+
+Inner page styles
+
+**********************************************************/
+
+div#banner {
+	margin: 1.5em 0;
+	padding: 0 20px;
+	text-align: center;
+}
+
+div#content {
+	padding: 1px 20px;
+}
+
+div#main-box-bottom {
+	background: url(../images/bkgd-main-box-bottom.png) no-repeat 0 0;
+	display: block !important;
+	display: none;
+	margin: 0 auto;
+	padding: 15px 5px 20px;
+	width: 950px;
+}
+
+div#site-header {
+	padding: 5px 20px 0 20px;
+}
+
+div#sidebar,
+div.sidebar{
+	background: url(../images/bkgd-sidebar-b.gif) no-repeat left bottom;
+	float: right;
+	font: 0.9em/1.5em Arial, Helvetica, sans-serif;
+	margin: 20px 0 0;
+	padding-bottom: 10px;
+	width: 230px;
+}
+
+div#sidebar-box,
+div.sidebar-box{
+	background: url(../images/bkgd-sidebar-t.gif) no-repeat 0 0;
+	padding: 1px 0;
+}
+
+div#sidecontent {
+	float: left;
+	width: 650px;
+}
+
+div.fullwidth { width: 100% !important;}
+
+form#sitesearch {
+	padding: 1.5em 20px 0;
+}
+
+form#sitesearch fieldset {
+	background: #fff;
+	border: 1px solid #d1d0ba;
+	margin: 0;
+	padding: 1px 0 1px 5px;
+}
+
+form#sitesearch input.search-box {
+	border: 0;
+	color: #999;
+	float: left;
+	font: 1.2em/1em Georgia, "Times New Roman", Times, serif;
+	margin: 5px 0 0;
+	padding: 0;
+	width: 150px;
+}
+
+form#sitesearch input.search-button {
+	border: 0;
+	border-left: 1px dotted #ccc;
+	float: right;
+	margin: 4px 2px 2px 2px;
+	text-align: center;
+	width: 25px;
+}
+
+ul#breadcrumbs, ul#breadcrumbs-secondary {
+	color: #666;
+	float: left;
+	font: 0.9em/1.5em Arial, Helvetica, sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 5px 0 0;
+}
+
+ul#breadcrumbs {
+	font-size: 0.75em;
+	line-height: 1.3em;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+ul#breadcrumbs li, ul#breadcrumbs-secondary li {
+	background: url(../images/breadcrumb.gif) no-repeat 100% 50%;
+	float: left;
+	margin-right: 5px;
+	padding-right: 10px;
+}
+
+ul#breadcrumbs li {
+	background-image: url(../images/breadcrumb-colon.gif);
+	padding-right: 8px;
+}
+
+ul#breadcrumbs-secondary li.last {
+	background: none;
+	padding-right: 0;
+}
+
+#sitenav ul,
+#sitenav ul.menu,
+ul#menu-navigation,
+ul#menu-top-menu {
+	list-style: none;
+	margin-top: 1em;
+	padding: 0 20px;
+}
+
+ul#sitenav,
+div.sidebar-box ul {
+	list-style: none;
+	margin-top: 1em;
+	padding: 0;
+}
+
+.menu-departmental-news-container ul#menu-departmental-news {
+	padding: 0;
+}
+
+ul#sitenav li,
+div.sidebar-box ul li {
+	border-bottom: 1px dotted #d1d0bd;
+	padding: 8px 0;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+ul#sitenav li a,
+div.sidebar-box ul li a {
+	display: inline;
+	padding: 5px 0;
+}
+
+ul#sitenav ul,
+div.sidebar-box ul ul{
+	background: #f9f9f7;
+	border: 1px solid #e7e6db;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	list-style: none;
+	margin: 3px 0 0 5px;
+	padding: 10px;
+}
+
+ul#sitenav ul li,
+div.sidebar-box ul ul li {
+	border: none;
+}
+
+ul#sitenav ul li a,
+div.sidebar-box ul ul li a{
+	display: inline;
+	padding: 0;
+}
+
+/**********************************************************
+
+jQuery scroll pane style sheet included below to minimize http requests.
+Horizontal scroll pane styles included in agency style sheet.
+
+**********************************************************/
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #aaa url(../images/newsfront-scroll-bkgd.jpg) repeat-y;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: url(../images/newsfront-scroll-button.jpg) no-repeat 50% 50%;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+a.jScrollArrowUp {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	height: 9px;
+}
+
+a.jScrollArrowDown {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	right: 0;
+	text-indent: -2000px;
+	overflow: hidden;
+	height: 9px;
+}
+
+/**********************************************************
+
+jQuery Thickbox style sheet included below to minimize http requests.
+
+**********************************************************/
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+*{padding: 0; margin: 0;}
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+#TB_secondLine {
+  font: 10px Arial, Helvetica, sans-serif;
+  color:#666666;
+}
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+.TB_overlayMacFFBGHack {background: url(../images/macFFBgHack.png) repeat;}
+.TB_overlayBG {
+  background-color:#000;
+  filter:alpha(opacity=75);
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+}
+* html #TB_overlay { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+#TB_window {
+  position: fixed;
+  background: #ffffff;
+  z-index: 102;
+  color:#000000;
+  display:none;
+  border: 4px solid #525252;
+  text-align:left;
+  top:50%;
+  left:50%;
+}
+* html #TB_window { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+#TB_window img#TB_Image {
+  display:block;
+  margin: 15px 0 0 15px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #666;
+  border-left: 1px solid #666;
+}
+#TB_caption{
+  height:25px;
+  padding:7px 30px 10px 25px;
+  float:left;
+}
+#TB_closeWindow{
+  height:25px;
+  padding:11px 25px 10px 0;
+  float:right;
+}
+#TB_closeAjaxWindow{
+  padding:7px 10px 5px 0;
+  margin-bottom:1px;
+  text-align:right;
+  float:right;
+}
+#TB_ajaxWindowTitle{
+  float:left;
+  padding:7px 0 5px 10px;
+  margin-bottom:1px;
+}
+#TB_title{
+  background-color:#e8e8e8;
+  height:27px;
+}
+#TB_ajaxContent{
+  clear:both;
+  padding:2px 15px 15px 15px;
+  overflow:auto;
+  text-align:left;
+  line-height:1.4em;
+}
+#TB_ajaxContent.TB_modal{
+  padding:15px;
+}
+#TB_ajaxContent p{
+  padding:5px 0px 5px 0px;
+}
+#TB_load{
+  position: fixed;
+  display:none;
+  height:13px;
+  width:208px;
+  z-index:103;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+* html #TB_load { /* ie6 hack */
+position: absolute;
+margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+#TB_HideSelect{
+  z-index:99;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color:#fff;
+  border:none;
+  filter:alpha(opacity=0);
+  -moz-opacity: 0;
+  opacity: 0;
+  height:100%;
+  width:100%;
+}
+* html #TB_HideSelect { /* ie6 hack */
+     position: absolute;
+     height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+#TB_iframeContent{
+  clear:both;
+  border:none;
+  margin-bottom:-1px;
+  margin-top:1px;
+  _margin-bottom:1px;
+}
